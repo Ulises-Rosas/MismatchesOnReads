@@ -16,12 +16,10 @@ parser.add_argument('fastq', metavar='FastQ',
                     type=argparse.FileType('r'),
                     help='FastQ file whose reads will be used to render input \
                     at the profiler')
-
 parser.add_argument('-adapt', metavar='Adapters', 
                     type=argparse.FileType('r'),
                     default = adapters,
                     help='Adapters file')
-
 args = parser.parse_args()
 
 
