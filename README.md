@@ -28,7 +28,7 @@ Rscript ouput_ploter.R
 ```
 The assessment of other target sequences is also allowed by including the `-adapt` argument in the python script
 
-```Python
+```Bash
 $ python  curves_adapters.py *.fastq -adapt targetSequences.txt
 ```
 
