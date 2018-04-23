@@ -26,12 +26,21 @@ python  curves_adapters.py *.fastq
 
 Rscript ouput_ploter.R
 ```
+The assessment of other target sequences is also allowed by including the `-adapt` argument in the python script
+
+```Python
+python  curves_adapters.py *.fastq -adapt targetSequences.txt
+```
 
 ## Output
 
+By default different files are created from the assessment of conventional indexes and adapters commonly used in an Illumina sequecing event:
+
 ```Bash
-$ ls .
-checking_adapters.pbs          curves_adapters.py  TruSeq_Index.png           TruSeq_Universal.csv           TruSeq_Universal_Reversed.png
-checking_adapters.pbs.e883561  ouput_ploter.R      TruSeq_Index_Reversed.csv  TruSeq_Universal.png
-checking_adapters.pbs.o883561  TruSeq_Index.csv    TruSeq_Index_Reversed.png  TruSeq_Universal_Reversed.csv
+$ ls -t .
+TruSeq_Universal_Reversed.png  TruSeq_Index.png           TruSeq_Universal_Reversed.csv  template.sh.e883561  curves_adapters.py
+TruSeq_Universal.png           TruSeq_Index_Reversed.csv  TruSeq_Universal.csv           template.sh.o883561
+TruSeq_Index_Reversed.png      TruSeq_Index.csv           ouput_ploter.R                 template.sh
 ```
+
+![](https://github.com/Ulises-Rosas/MismatchesOnReads/blob/master/TruSeq_Index.png)
