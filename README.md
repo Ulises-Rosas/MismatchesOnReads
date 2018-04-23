@@ -42,5 +42,6 @@ TruSeq_Universal_Reversed.png  TruSeq_Index.png           TruSeq_Universal_Rever
 TruSeq_Universal.png           TruSeq_Index_Reversed.csv  TruSeq_Universal.csv           template.sh.o883561
 TruSeq_Index_Reversed.png      TruSeq_Index.csv           ouput_ploter.R                 template.sh
 ```
+The following image is one of the prior results:
 
 ![](https://github.com/Ulises-Rosas/MismatchesOnReads/blob/master/TruSeq_Index.png)
