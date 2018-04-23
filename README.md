@@ -5,7 +5,7 @@ Number of mismatches between reads and adapters can be graphically assessed by u
 
 ## Usage
 
-Scripts presented in this repository run together in a shell. The following shell is a template for running both in a cluster:
+Scripts presented in this repository run together in a shell. The following shell is a template for running both scripts in a  cluster:
 
 ```Bash
 #!/bin/bash -l
