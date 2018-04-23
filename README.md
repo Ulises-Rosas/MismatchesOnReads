@@ -3,7 +3,7 @@
 Number of mismatches between reads and adapters can be graphically assessed by using regression analysis. This specific parameter from your dataset can also be coupled to Trimmomatic software. 
 
 
-## Mode of use
+## Usage
 
 Scripts presented in this repository run together in a shell. The following shell is a template for running both in a cluster:
 
