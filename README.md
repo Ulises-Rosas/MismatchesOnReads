@@ -5,36 +5,17 @@ Number of mismatches between reads and adapters can be graphically assessed by u
 
 ## Usage
 
-Scripts presented in this repository run together in a shell. The following shell is a template for running both scripts in a  cluster:
+Scripts presented in this repository run together in a single directory and with `*.fastq` files:
 
 ```Bash
-#!/bin/bash -l
-# FILENAME: template.sh
-
-#PBS -l nodes=1:ppn=20
-#PBS -l walltime=00:10:00
-#PBS -q [specify a queue here]
-
-cd $PWD/fastqs
-
-#load both python and r modules:
-
-module load python/3.4.1
-module load r/3.4.3
-
 python  curves_adapters.py *.fastq
-
 Rscript ouput_ploter.R
 ```
-The assessment of other target sequences is also allowed by including the `-adapt` argument in the python script
-
-```Bash
-$ python  curves_adapters.py *.fastq -adapt targetSequences.txt
-```
+The assessment of other target sequences is also allowed by including the `-adapt` argument in the python script.
 
 ## Output
 
-By default different files are created from the assessment of conventional indexes and adapters commonly used in an Illumina sequecing event:
+Different files are created from the assessment of conventional indexes and adapters commonly used in an Illumina sequecing event by default
 
 ```Bash
 $ ls -t .
