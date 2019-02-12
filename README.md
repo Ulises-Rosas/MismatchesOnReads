@@ -3,12 +3,17 @@
 Number of mismatches between reads and adapters can be graphically assessed by using regression analysis. This specific parameter from your dataset can also be coupled to Trimmomatic software. 
 
 
+## Requirements
+
++ R
++ python3 (modules: pandas & scipy)
+
 ## Usage
 
 Scripts presented in this repository run together in a single directory and with `*.fastq` files:
 
 ```Bash
-python  curves_adapters.py *.fastq
+python3  curves_adapters.py *.fastq
 Rscript ouput_ploter.R
 ```
 The assessment of other target sequences is also allowed by including the `-adapt` argument in the python script.
