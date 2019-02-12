@@ -19,9 +19,9 @@ Different files are created from the assessment of conventional indexes and adap
 
 ```Bash
 $ ls -t .
-TruSeq_Universal_Reversed.png  TruSeq_Index.png           TruSeq_Universal_Reversed.csv  template.sh.e883561  curves_adapters.py
-TruSeq_Universal.png           TruSeq_Index_Reversed.csv  TruSeq_Universal.csv           template.sh.o883561
-TruSeq_Index_Reversed.png      TruSeq_Index.csv           ouput_ploter.R                 template.sh
+TruSeq_Universal_Reversed.png  TruSeq_Index.png           TruSeq_Universal_Reversed.csv    curves_adapters.py
+TruSeq_Universal.png           TruSeq_Index_Reversed.csv  TruSeq_Universal.csv           
+TruSeq_Index_Reversed.png      TruSeq_Index.csv           ouput_ploter.R                 
 ```
 The following image is one of the prior results:
 
