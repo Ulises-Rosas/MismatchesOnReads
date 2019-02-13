@@ -5,7 +5,7 @@ Number of mismatches between reads and adapters can be graphically assessed by u
 
 ## Requirements
 
-+ R
++ R (libraries: ggplot2, RColorBrewer)
 + python3 (modules: pandas & scipy)
 
 ## Usage
